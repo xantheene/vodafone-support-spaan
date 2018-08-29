@@ -8,6 +8,10 @@
   },
   "author": "Rasmita Sahoo",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xantheene/vodafone-support-spaan.git"
+    },
   "dependencies": {
     "@google-cloud/common": "^0.21.0",
     "body-parser": "^1.18.3",
