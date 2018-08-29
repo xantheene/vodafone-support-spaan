@@ -6,7 +6,7 @@
   "scripts": {
     "start" : "node server.js"
   },
-  "author": "",
+  "author": "Rasmita Sahoo",
   "license": "ISC",
   "dependencies": {
     "@google-cloud/common": "^0.21.0",
