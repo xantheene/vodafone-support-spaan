@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">    
+    
+    <title>Document</title>
+</head>
+<body>
+    <form action="/upload" method="POST" id="form" name="form">
+        <input type="text" placeholder="Name" name="txtname" id="txtfield" />
+        <input type="submit" value="Submit" name="btnsubmit" />
+    </form>
+
+</body>
+<script>
+    $("#form").on('submit',function(e){
+        //e.preventDefault();
+        console.log("Form")
+    });
+</script>
+</html>
